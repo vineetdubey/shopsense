@@ -19,7 +19,6 @@ class MoviesList(APIView):
         """
         Post movies with Generes name
         """
-        import ipdb;ipdb.set_trace()
         data = request.data
         if data.get('genre'):
             """
